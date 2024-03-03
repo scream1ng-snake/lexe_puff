@@ -1,0 +1,24 @@
+mode: 'development'
+
+http:
+  host: 'localhost'
+  port: 5001
+
+db:
+  application:
+    type: 'postgres'
+    host: 'localhost'
+    port: 5432
+    database: 'recognition-service'
+    user: 'postgres'
+    password: 'root'
+    schema: 'public'
+  
+  lexema8: 
+    type: 'postgres'
+    host: 'localhost'
+    port: 5432
+    database: 'recognition-service'
+    user: 'postgres'
+    password: 'root'
+    schema: 'public'
