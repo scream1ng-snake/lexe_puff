@@ -39,6 +39,10 @@ const validationSchema = Joi.object({
     ftpPath: Joi.string().required(),
     secure: Joi.bool().required(),
   }),
+  yandex: Joi.object({
+    OAuth: Joi.string().required(),
+    XFolderId: Joi.string().required(),
+  })
 });
 
 export function configGetter() {

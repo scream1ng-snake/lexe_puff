@@ -22,3 +22,7 @@ db:
     user: 'postgres'
     password: 'root'
     schema: 'public'
+
+yandex:
+  OAuth: "y0_AgAAAABnJ6UeAATuwQAAAAD2Mtb9EqmSg7CCSjGx70gNB43BCMX__UM"
+  XFolderId: "b1go1rnknjf12uq4bn22"
